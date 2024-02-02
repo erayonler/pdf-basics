@@ -16,10 +16,6 @@ import streamlit as st
 import PyPDF2
 from io import BytesIO
 
-try:
-    !pip install PyPDF2
-else:
-    pass
 
 def merge_pdfs(pdfs):
     pdf_writer = PyPDF2.PdfWriter()
