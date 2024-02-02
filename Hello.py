@@ -16,7 +16,7 @@ import streamlit as st
 import PyPDF2
 from io import BytesIO
 
-try ModuleNotFoundError:
+try:
     !pip install PyPDF2
 else:
     pass
